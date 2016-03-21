@@ -1,0 +1,48 @@
+
+Programming Challenge - KVStore
+
+//Below SQLite queries run in mac terminal window
+-----------------------------------------------------------------------------------
+// Create Database 
+sqlite3 Company.db
+-----------------------------------------------------------------------------------
+// Create Table 
+create table employee (id int primary key, name string, age int, place string);
+-----------------------------------------------------------------------------------
+// Insert data into employee table
+insert into employee (id, name, age, place) values (1, 'John',  25,  'Pune' );
+insert into employee (id, name, age, place) values (2, 'Json',  28,  'Pune');
+insert into employee (id, name, age, place) values (3, 'Amit',  24,  'Pune');
+insert into employee (id, name, age, place) values (4, 'Raj',  27,  'Pune');
+----------------------------------------------------------------------------------
+// Display data in formatted output
+.header on
+.mode .column
+-----------------------------------------------------------------------------------
+// Display records from Employee table
+select * from employee;
+-----------------------------------------------------------------------------------
+// Display particular employee data using primary key
+select * from employee where id = 1;
+-----------------------------------------------------------------------------------
+// Update particular employee data using primary key
+update employee set name = 'James' where id = 3;
+-----------------------------------------------------------------------------------
+// Delete particular employee data using primary key
+delete from employee where id = 4;
+-----------------------------------------------------------------------------------
+// Proper use of transactions
+//start a transaction and delete records from the table having age = 25 and 
+//use ROLLBACK command to undo all the changes.
+
+begin;
+delete from employee where age = 24;
+rollback;
+-----------------------------------------------------------------------------------
+//start another transaction and delete records from the table having age = 25 and 
+//use COMMIT command to commit all the changes.
+
+begin;
+delete from employee where age = 24;
+commit;
+-----------------------------------------------------------------------------------
