@@ -1,0 +1,48 @@
+SDK recruitment questionnaire - Part A
+
+Part 1 Self assessment Questionnaire
+
+Here are a few questions that should take under 10 minutes to answer.
+
+[A] How would you rate your hands-on experience on a scale of 1 to 10, on the following skills (10 is highest):
+
+Rating scheme:
++ A Rating of 10 means that you wrote and published a book on the subject.
++ 9 >= Rating >= 7 means you are extremely proficient and have deep technical knowledge that you can demonstrate to us.
++ 6 >= Rating >= 4 means your depth of knowledge is not as strong because you use it infrequently or were proficient at it sometime in the past.
++ 3 >= Rating >= 1 indicates your experience is purely academic or is self-taught and not applied to production software.
++ Rating = 0 If you have No Experience, it's OK, but please indicate that.
+
+In the list below, please replace the placeholder key-value templates with appropriate names and ratings.
+
+Programming Language (PL) : Rating (R) ----------
+PL : R      Swift : 6+
+PL : R      Objective C : 5+
+PL : R      C & C++ : 3+
+
+Programming Paradigm: Rating (R) ----------
+Object Oriented Programming : R  6+
+Functional Programming : R  5+
+Other : R   
+
+Engineering Tools / Skills:
+----------
+Skill with Linux/Unix Command Line Utilities : R  3+
+Version Control System Name (N) / Rating (R)  4+
+N: R    Xcode : 5+
+
+Concepts: Rating (R)
+----------
+Mobile UI/UX : R  6+
+Mobile Platform (internals and architecture) : R 3+ 
+Algorithms : R  5+
+Data Structures : R  2+
+
+Any Three other skills you'd like to highlight. ----------
+Skill Name (N) / Rating (R)
+N: R    Business Developer Executive : 7+
+N: R 
+N: R
+
+[C] If you are currently not based in Pune, are you open to relocating here?
+Ans: Yes
