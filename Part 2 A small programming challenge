@@ -8,7 +8,6 @@ import UIKit
 // Initialize the Array
 var emptyArray: [Int] = []
 
-
 for k in 1...300
 {
     if(k % 7 == 0 )
@@ -32,7 +31,6 @@ Extend the program to other multiples and number ranges
 
 // Initialize the Array
 var emptyNewArray: [Int] = []
-
 
 for k in 1...500
 {
